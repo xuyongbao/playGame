@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title></title>
+    <link href="css/mui.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" type="text/css" href="./css/index.css"/>
+</head>
+<body>
+	<!--开场动画-->
+	<div class="start_animation hidden">
+		<div class="img">
+			<img src="img/timg.gif"/>
+		</div>
+	</div>
+
+	<!-- 主题内容 -->
+	<section class="luck_sec ">
+		<div class="bg">
+		</div>
+		<h1 class="h1">今晚几间房之</h1>
+		<h1 class="h2">妈咪大PK</h1>
+
+		<div class="luck">
+			<span>今日运气值:</span>
+			<span class="luck_num">60</span>
+		</div>
+
+		<div class="button_need">
+			<div class="need">
+				<span>开始抢客啦!</span>
+			</div>
+			<div class="get_house  hidden">
+				<div class="title">恭喜您</div>
+				<div class="txt">今晚将有x间房</div>
+				<button type="button" class="mui-btn mui-btn-primary get_house_again">再来一次</button>
+			</div>
+		</div>
+
+		<div class="line">
+			<img src="./img/fenge.jpg" alt="">
+		</div>
+		<div class="line_txt">
+			<span>订房就用妈咪神器</span>
+		</div>
+		<div class="line line_scale">
+			<img src="./img/fenge.jpg" alt="">
+		</div>
+		<div class="copy">
+			<div class="copy_one">
+				<span>还每天在群里大喊预定的房间号么?</span>
+				<span>还跟其他人一起抢房间 而争的面红耳赤么?</span>
+				<span>还在茫茫微信消息里等待刷屏工作回复么?</span>
+			</div>
+		</div>
+
+		<ul class="mui-table-view">
+			<li class="mui-table-view-cell">我要报名</li>
+		</ul>
+
+		<form class="mui-input-group">
+			<div class="mui-input-row">
+				<label>手机号</label>
+				<input type="text" class="mui-input-clear submitInput" maxlength="11" placeholder="请输入手机号">
+			</div>
+			<div class="mui-button-row">
+				<button type="button" class="mui-btn mui-btn-primary submitButton">提交</button>
+			</div>
+		</form>
+
+	</section>
+
+	<section class="pray hidden">
+		<div class="guanerye">
+			<img src="./img/guan.gif" alt="">
+		</div>
+		<div class="txt">
+			<span>请在心中默念祈祷三次关二爷</span>
+		</div>
+	</section>
+
+	<section class="person hidden">
+		<div>
+			<img class="person_img" src="./img/0.jpg" alt="">
+		</div>
+	</section>
+
+	<section class="alert_input hidden">
+		<div class="content_input">
+			<h2>输入以下信息精准预测</h2>
+			<div class="mui-input-row">
+				<label>手机号</label>
+				<input type="text" class="mui-input-clear sex_input_phone"  maxlength="11" placeholder="请输入手机号">
+			</div>
+			<div class="sex">
+				<div class="mui-input-row mui-radio flex1">
+					<label>先生</label>
+					<input name="radio1" value="0" type="radio" checked>
+				</div>
+				<div class="mui-input-row mui-radio flex1">
+					<label>女士</label>
+					<input name="radio1" value="1" type="radio">
+				</div>
+			</div>
+			<button type="button" class="mui-btn mui-btn-primary sex_sure">确定</button>
+		</div>
+	</section>
+
+	
+	
+	
+	
+	
+	
+	<script type="text/javascript" src="js/mui.min.js">
+		mui.init();
+	</script>
+	<script src="js/jquery-3.1.1.min.js"></script>
+	<script type="text/javascript" src="js/index.js"></script>
+    <script type="text/javascript">
+    	document.querySelector("html").style.fontSize = (window.screen.width / 750 * 100 + 'px');
+    </script>
+</body>
+</html>

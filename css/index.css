@@ -1,0 +1,261 @@
+html,body{
+	height:100%;
+	width:100%;
+	position: relative;
+	z-index: -3;
+	font-weight: bold;
+}
+h1, h2, h3, h4, h5, h6{
+	margin:0;
+}
+.luck_sec{
+	background:url('../img/bg.jpg') no-repeat;
+	background-size:100% 100%;
+	color:#fff;
+	z-index: -2;
+	position: relative;
+	min-height:100%;
+}
+.bg{
+	position:fixed;
+	top:0;
+	bottom:0;
+	right:0;
+	left:0;
+	background: rgba(0,0,0,0.5);
+	z-index: -1;
+}
+.hidden{
+	display: none!important;
+}
+.start_animation{
+	position:fixed;
+	top:0;
+	bottom:0;
+	right:0;
+	left:0;
+	background: #fff;
+	
+}
+.start_animation .img{
+	width:1.8rem;
+	height:1.8rem;
+	position:absolute;
+	top:50%;
+	left:50%;
+	margin-top:-.9rem;
+	margin-left: -.9rem;
+}
+.start_animation .img img{
+	width:100%;
+	height: 100%;
+}
+.person{
+	position:fixed;
+	top:0;
+	bottom:0;
+	right:0;
+	left:0;
+	background: rgba(0,0,0,0.7);
+}
+.person div{
+	width:100%;
+	height:4rem;
+	position: absolute;
+	top:4rem;
+}
+.person div img{
+	width:100%;
+	height:100%;
+}
+.h1{
+	padding:.8rem .6rem 0;
+	font-size:.6rem;
+	text-align: left;
+}
+.h2{
+	padding:0 .6rem .2rem;
+	font-size:.6rem;
+	text-align: right;
+}
+
+.luck{
+	padding:.2rem;
+	font-size:.4rem;
+	text-align: center;
+}
+.luck_num{
+	color:#f00;
+}
+.button_need{
+	height:4rem;
+	width:100%;
+	position: relative;
+}
+.need{
+	height:2.11rem;
+	width:3.69rem;
+	background:url('../img/gold.png') no-repeat;
+	text-align: center;
+	line-height: 2.71rem;
+	font-size:.36rem;
+	position: absolute;
+	top:1rem;
+	left:50%;
+	margin-left:-1.85rem;
+	background-size:100%;
+}
+
+.get_house{
+	padding-top:.5rem;
+	text-align: center;
+}
+.get_house .title{
+	font-size:.5rem;
+	line-height: .9rem;
+}
+.get_house .txt{
+	margin-top:.3rem;
+	line-height: .8rem;
+	font-size:.6rem;
+}
+.get_house_again{
+	width:4rem;
+	margin-top:.6rem;
+}
+
+
+.pray{
+	position:fixed;
+	top:0;
+	bottom:0;
+	right:0;
+	left:0;
+	background: rgba(0,0,0,0.7);
+}
+.guanerye{
+	width:100%;
+	height:4.73rem;
+	position: absolute;
+	top:4rem;
+}
+.guanerye img{
+	width:100%;
+	height:100%;
+}
+.pray .txt{
+	height:.6rem;
+	line-height: .6rem;
+	font-size: .5rem;
+	text-align: center;
+	position: absolute;
+	top:3rem;
+	color:#fff;
+	width:100%;
+}
+
+.copy{
+	text-align: center;
+	line-height: .7rem;
+	font-size:.38rem;
+	padding:.6rem .1rem;
+}
+.copy span{
+	display: block;
+}
+
+.mui-input-group{
+	background: none;
+	padding-bottom:.6rem;
+}
+.submitButton{
+	width:80%;
+	margin-top:.2rem;
+	border: 1px solid #dd60fc;
+    background-color: #dd60fc;
+}
+.get_house_again,.sex_sure{
+	border: 1px solid #dd60fc;
+    background-color: #dd60fc;
+}
+.mui-checkbox input[type=checkbox]:checked:before, .mui-radio input[type=radio]:checked:before{
+	color:#dd60fc;
+}
+.mui-table-view{
+	margin-top:.5rem;
+	background:none;
+}
+.mui-table-view:after{
+	height:0;
+}
+
+.sex{
+	display: flex;
+}
+.flex1{
+	flex:1;
+}
+
+.alert_input{
+	position:fixed;
+	top:0;
+	bottom:0;
+	right:0;
+	left:0;
+	background:rgba(0,0,0,.4);
+}
+.content_input{
+	width:6rem;
+	height:4rem;
+	position: absolute;
+	top:20%;
+	left:50%;
+	margin-left:-3rem;
+	background:#fff;
+	border-radius:.2rem;
+}
+h2{
+	text-align: center;
+	font-size:.4rem;
+	padding:.3rem;
+}
+h3{
+	text-align: center;
+	font-size:.36rem;
+	color:#777;
+	padding-top:.3rem;
+	padding-bottom: .14rem;
+	font-weight: normal;
+}
+.sex_sure{
+	width:3rem;
+	margin:.48rem 1.5rem  0;
+}
+
+
+.mui-table-view-cell{
+	text-align: center;
+}
+
+.vhidden{
+	visibility: hidden;
+}
+
+
+.line{
+	width:94%;
+	height:1.3rem;
+	margin:0 3%;
+}
+.line img{
+	width:100%;
+	height:100%;
+}
+.line_txt{
+	text-align: center;
+	font-size:.3rem;
+	line-height: 1.2rem;
+}
+.line_scale{
+	transform: scale(-1)
+}
